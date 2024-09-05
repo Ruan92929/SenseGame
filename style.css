@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+#gameCanvas {
+    display: block;
+    background-color: #ffffff;
+    cursor: none; 
+}
+
+.crosshair {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url('crosshair.png') no-repeat center center;
+    background-size: contain;
+    pointer-events: none;
+    display: none; 
+}
